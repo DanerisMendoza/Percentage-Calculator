@@ -1,0 +1,24 @@
+[33mcommit 37fbcb7b3b1e9f6e935892af077e65386fd2c92f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: 91f8399 d8b5bc3
+Author: dane <danerismendoza096@gmail.com>
+Date:   Sun Jul 31 11:41:44 2022 +0800
+
+    Merge branch 'master' of https://github.com/daneTech/Percentage-Calculator
+
+[33mcommit 91f8399e33154d9a897a630c0ef5c8e51a0a310b[m
+Author: dane <danerismendoza096@gmail.com>
+Date:   Sun Jul 31 11:39:28 2022 +0800
+
+    v2
+
+[33mcommit d8b5bc3c471cff2671619062da7e2282018dbd6a[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: daneTech <106788394+daneTech@users.noreply.github.com>
+Date:   Wed Jul 20 13:57:17 2022 +0800
+
+    Create README.md
+
+[33mcommit db0add0d39dd2cfb4c4b65f94c844f5a9ad46d02[m
+Author: dane <danerismendoza096@gmail.com>
+Date:   Wed Jul 20 13:41:00 2022 +0800
+
+    v1

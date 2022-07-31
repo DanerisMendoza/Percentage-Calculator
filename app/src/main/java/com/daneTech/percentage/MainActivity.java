@@ -52,12 +52,8 @@ public class MainActivity extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String formula1 = "inputPercentageOfTotal =  (input1*100)/input2;";
-                String formula2 = "if(input1>9)\n" +
-                                  "     input1Decimal =  input1/100;\n" +
-                                  "else\n" +
-                                  "     input1Decimal =  input1/10;\n"+
-                                  "result = input2*input1Decimal;";
+                String formula1 = "result =  (input1*100)/input2;";
+                String formula2 = "result = input2*(input/100);";
                 AlertDialog.Builder builder = new AlertDialog.Builder(new ContextThemeWrapper(MainActivity.this, R.style.AlertDialogCustom));
                 builder.setCancelable(true);
                 builder.setTitle("Formulas:");
@@ -84,12 +80,8 @@ public class MainActivity extends AppCompatActivity {
                 }
                 //mode 2
                 else{
-                    double input1Decimal,result;
-                    if(input1>9)
-                        input1Decimal = (double) input1/100;
-                    else
-                        input1Decimal = (double) input1/10;
-                    result = input2*input1Decimal;
+                    double result;
+                    result = input2*(input1/100);
                     textView1.setText("Output: \n"+input1String+"% of "+input2String+" is "+String.valueOf(result%1==0 ? String.valueOf((int) Math.round(result)): result));
                 }
                 
